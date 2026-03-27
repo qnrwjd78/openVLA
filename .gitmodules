@@ -3,5 +3,5 @@
 	url = https://github.com/openvla/openvla.git
 
 [submodule "repo/libero"]
-    path = repo/libero
-    url = https://github.com/Lifelong-Robot-Learning/LIBERO.git
+	path = repo/libero
+	url = https://github.com/Lifelong-Robot-Learning/LIBERO.git

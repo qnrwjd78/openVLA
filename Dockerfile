@@ -49,7 +49,6 @@ RUN pip install --upgrade pip setuptools wheel && \
         "packaging" \
         "ninja" \
         "bitsandbytes" && \
-    pip install --no-cache-dir "flash-attn==2.5.5" --no-build-isolation && \
-    pip install --no-cache-dir --force-reinstall "numpy==1.26.4"
+    pip install --no-cache-dir "flash-attn==2.5.5" --no-build-isolation
 
 CMD ["/bin/bash"]
